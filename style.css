@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.Home-Pictures {
+    display: flex;
+    justify-content: center;
+}
+
+.Home-Pictures img {
+    width: 100%;
+}
+
+.Image-And-Text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    padding: 0px 50px;
+}
+
+.Home-Pictures h2 {
+    text-align: center;
+    padding-bottom: 1vh;
+}
+
+.Home-Pictures a {
+    text-decoration: none;
+    color: black
+}
+
+.Img-Title-Div {
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.About {
+    margin-top: 50px;
+}
+
+@media (max-width: 1200px) {
+    
+}
