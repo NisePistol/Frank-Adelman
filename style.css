@@ -6,6 +6,7 @@
 .Home-Pictures {
     display: flex;
     justify-content: center;
+    margin-bottom: 100px;
 }
 
 .Home-Pictures img {
@@ -37,7 +38,7 @@
 }
 
 .About {
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 .Angel-Img {
@@ -48,6 +49,17 @@
 
 .Angel-Img img {
     width: 300px;
+}
+
+.Bottom-Div {
+    height: 100px;
+    border: 1px solid black;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.Bottom-Div h3{
+    font-weight: normal;
 }
 
 @media (max-width: 1200px) {
