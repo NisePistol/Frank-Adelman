@@ -40,6 +40,16 @@
     margin-top: 50px;
 }
 
+.Angel-Img {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.Angel-Img img {
+    width: 300px;
+}
+
 @media (max-width: 1200px) {
     
 }
