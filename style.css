@@ -6,7 +6,6 @@
 .Home-Pictures {
     display: flex;
     justify-content: center;
-    margin-bottom: 100px;
 }
 
 .Home-Pictures img {
@@ -44,7 +43,9 @@
 .Angel-Img {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 100px;
+    padding-top: 75px;
+    padding-bottom: 30px;
 }
 
 .Angel-Img img {
@@ -62,6 +63,37 @@
     font-weight: normal;
 }
 
+.Angel-Bottom {
+    width: 40%;
+    margin-right: 20px;
+    margin-bottom: 75px;
+    margin-top: 50px;
+}
+
+.Angel-Bottom-Div {
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
 @media (max-width: 1200px) {
     
+}
+
+.Contact-H1 {
+    text-align: center;
+    margin-top: 30vh;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+.Contact-H2 {
+    margin-bottom: 25px;
+    text-align: center
+}
+
+.Contact-Info {
+    width: fit-content;
+    margin: auto;
 }
